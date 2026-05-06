@@ -1,5 +1,6 @@
+import java.lang.Math;
 import java.util.Scanner;
-class GenerateAndFind
+class GenerateandFind
     // level 2
 {
     public int[] generate4DigitRandomArray(int size){
@@ -25,7 +26,7 @@ class GenerateAndFind
 Scanner sc=new Scanner(System.in);
 System.out.println("enter the size of the array");
 int size=sc.nextInt();
-GenerateAndFind obj=new GenerateAndFind();
+GenerateandFind obj=new GenerateandFind();
 System.out.println("The random generated array elements are: " );
 int[] arr =obj.generate4DigitRandomArray(size);
 for(int i:arr)
